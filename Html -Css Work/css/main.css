@@ -1,0 +1,24 @@
+.headerstyle{
+    background-color: aqua;
+    color:red;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.coffee1{
+    background-size: cover;
+}
+.heading2{
+    font-weight: bold;
+    color:black;
+}
+.cart-button {
+    background-color: red;
+    color: white;
+    border-color: none;
+    border-radius: 14px;
+    border: none;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Image maps</h2>
+    <p>
+        Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:
+
+    </p>
+    <img src="image/laptop.jpg" alt="Workplace" usemap="#Workmap" 
+    width="400" height="379">
+    <map name="Workmap">
+        <area shape="rect" coords="34,44,270,350" href="link.html" alt="computer">
+        <area shape="circle" coords="337,300,44" href="link.html" alt="cup of coffee">
+    </map>
+    
+</body>
+</html>
